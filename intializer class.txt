@@ -1,0 +1,53 @@
+package kani;
+
+import java.util.List;
+import java.util.Map;
+
+public  class Initilazer {
+
+    public List<Student> loadStudents(List<Student> studentlist) {
+
+        studentlist.add(new Student(0,"System user"));
+        studentlist.add(new Student(1,"Sphoorthi"));
+        studentlist.add(new Student(2,"Mohan"));
+        studentlist.add(new Student(3,"Brigdish"));
+        studentlist.add(new Student(4,"Naren"));
+
+        return studentlist;
+    }
+
+
+    public void loadBooks(Map<Integer, List<Book>> simulatedHashMap){
+        new Book( "Let us Java", "arjun ", 101, 0).feed(simulatedHashMap);
+
+        new Book( "Bile of java", "sumanth", 101, 1).feed(simulatedHashMap);
+
+
+        new Book( "0 to Hero in Java", "karthik", 101, 2).feed(simulatedHashMap);
+
+
+        new Book( "Javascript", "Yashwant", 102, 0).feed(simulatedHashMap);
+
+
+        new Book( "Bile javascript", "arjun sumanth", 102, 1).feed(simulatedHashMap);
+
+
+        new Book( "Lets  Go", "rajesh", 103, 0).feed(simulatedHashMap);
+
+
+        new Book( "Bile  Golang", "venkat", 103, 8).feed(simulatedHashMap);
+
+
+        new Book( "0 to Hero in javascript", "arun", 102, 8).feed(simulatedHashMap);
+    }
+
+
+   // created date 11/3/20
+    public class Initilizer {
+
+
+    }
+
+}
+
+

@@ -1,0 +1,17 @@
+package kani;
+
+public class Utils {
+	 public static void printBookCatalog(){
+
+	        System.out.println("============Books Menus to pick ==============" );
+	        System.out.println("Enter 101 for Java books ");
+	        System.out.println("Enter 102 for Javascript books ");
+	        System.out.println("Enter 103 for bio books ");
+	        
+
+}
+	 public static void printFooter(){
+		    
+	        System.out.println("\n Thanks for Using our program - arjun sumanth\n ");
+	    }
+}
